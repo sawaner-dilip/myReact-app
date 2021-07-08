@@ -1,0 +1,7 @@
+Life Cycle Methods
+mounting components
+-constructor()-->  Manager Function -called at the time of object creating
+-render() --> Combining other components & execute 
+-ComponentDidMount() -Class a have component is build/mount
+                    When any API is called that time this Methods
+                    is executed /Side effects or DOM is updated.
