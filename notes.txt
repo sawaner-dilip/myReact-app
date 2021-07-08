@@ -5,3 +5,10 @@ mounting components
 -ComponentDidMount() -Class a have component is build/mount
                     When any API is called that time this Methods
                     is executed /Side effects or DOM is updated.
+** Updating
+- getDerivedStateFromProps(Props, State)--return null
+- shouldComponentUpdate(nextProp, nextState) -->bool value Ttrue/False               
+- render()
+- getSnapshotBeforeUpdate(prevProps, prevState)- access previous status of Props and State
+ returns Ttrue/False
+ componentDidUpdate()
